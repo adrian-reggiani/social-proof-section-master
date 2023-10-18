@@ -1,0 +1,123 @@
+:root{
+    /* Primray */
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsl(333, 80%, 67%);
+
+    /*Neutral*/
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+
+}
+
+html{
+    font-size: 16px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+main{
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--White);
+}
+
+
+.cabecera{
+    margin-top: 2rem;
+    text-align: center;
+    
+}
+.cabecera__informacion{
+    margin-bottom: 2.5rem;
+}
+.cabecera__informacion h2{
+    color: var(--Very-Dark-Magenta);
+    
+    font-size: 2.5rem;
+    line-height: 2rem;
+    font-weight: bold;
+    
+}
+
+.cabecera__informacion p{
+    color: var(--Dark-Grayish-Magenta);
+    font-size: 1.2rem;
+    
+    
+    
+}
+.cabecera__calificacion{
+    margin-bottom: 3rem;
+}
+.cabecera__calificacion .calificacion{
+    background-color: var(--Light-Grayish-Magenta);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color:var(--Very-Dark-Magenta);
+    font-size: 1.2rem;
+   
+
+}
+
+.cabecera__calificacion .calificacion .estrellas{
+    margin-top: 1rem;
+    margin-bottom: 0;
+    
+}
+
+.cabecera__calificacion .calificacion img{
+    margin-right: 0.2rem;
+}
+
+.cabecera__calificacion .calificacion p{
+    margin-top: 0.5rem;
+
+}
+
+.pie__usuario { 
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    background-color: var(--Very-Dark-Magenta);
+    border-radius: 1rem;
+}
+
+.pie__usuario__nombre{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.pie__usuario__nombre img{
+    border-radius: 50%;
+    width: 15%;
+    
+}
+.pie__usuario__nombre p{
+    width: 40%;
+    color: var(--Soft-Pink);
+    font-weight: bold
+    
+}
+
+.pie__usuario__nombre p span{
+    color: var(--White);
+}
+
+.pie__usuario__comentario{
+    color: var(--White);
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    
+}
+
